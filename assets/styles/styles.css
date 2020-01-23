@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+header{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.navbarNavDropdown{
+    filter: invert(100%);
+}
+
+
+.col2, .col7{
+    padding-top: 2rem;
+}
+
+.payer{
+    background: #54ae54;
+    border: 2px solid #54ae54;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+#trier{
+   position: absolute;
+   right: 20px;
+   font-size: 1.5rem;
+   background: #e2e2e2;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px gray;
+}
+#depart{
+    font-size: 1.5rem;
+    background: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+ }
+
+
+.col3{
+    position: relative;
+
+}
+.caption{
+    position: absolute;
+    top: 2rem;
+    left: 30rem;
+    color: white;
+}
+.titre{
+    text-align: center;
+}
+
+.resultat{
+    font-size: 1.5rem;
+}
+
+.aff,.aff2{
+    display: none;
+    
+}
+
+.agence{
+    max-width: 20rem;
+    float: right;
+}
+
+.sep{
+    width: 68rem;
+}
+
+.recherche{
+    position: absolute;
+    display: flex;
+    bottom: 5rem;
+    left: 10rem;
+    z-index: 1;
+}
+
+button{
+    background: #56a15a;
+    border: none;
+    opacity: 70%;
+    color: white;
+}
+
+.navbar-toggler{
+    border: 2px solid white;
+}
+
+input#datepicker, input#datepicker2{
+    width: 276;
+}
